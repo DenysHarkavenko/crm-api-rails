@@ -38,10 +38,22 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "rspec-rails", "~> 6.1"
+  gem "shoulda-matchers", "~> 6.1"
+  gem "factory_bot_rails", "~> 6.4"
 end
 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem "devise", "~> 4.9"
+
+gem "simple_token_authentication", "~> 1.18"
+
+gem "faker", "~> 3.2"
+
+
+
 
