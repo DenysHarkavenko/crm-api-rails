@@ -1,16 +1,16 @@
 # Rails API for CRM
 
-##How to run ?
-###1) First step:
+## How to run ?
+### 1) First step:
 ```
 bundle install
 ```
-###2) Next step
+### 2) Next step
 ```
 rake db:create
 rake db:migrate
 ```
-###3) Run server
+### 3) Run server
 ```
 rails s
 ```
