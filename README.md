@@ -7,8 +7,8 @@ bundle install
 ```
 ### 2) Next step
 ```
-rake db:create
-rake db:migrate
+rails db:create
+rails db:migrate
 ```
 ### 3) Run server
 ```
