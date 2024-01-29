@@ -37,7 +37,7 @@ and body
 email: 'your user email'
 password: 'your user password'
 ```
-###If it's doesn't work, ypu can make this manual in Rails Console:
+### If it's doesn't work, you can make this manual in Rails Console:
 ```
 user = User.new(email: 'email@email.com', password: 'password')
 user.save
